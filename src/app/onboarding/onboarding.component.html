@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="onboarding.component.css">
+</head>
+
+<body>
+
+
+<form class="form-token">
+  <h1 class=" mb-3">Fill in Your Info</h1>
+  <h3>About You</h3>
+  <div class="form-sameline3">
+    <input type="text" id="firstname" class="form-control" pattern="[A-Z][a-z]{1,}"
+           placeholder="First Name" [(ngModel)]="fname" name="fname" required>
+    <input type="text" id="lastname" class="form-control" pattern="[A-Z][a-z]{1,}"
+           placeholder="Last Name" [(ngModel)]="lname" name="lname" required>
+    <input type="text" id="middlename" class="form-control" pattern="[a-zA-Z]{1,}"
+           placeholder="Middle Name" [(ngModel)]="mname" name="mname">
+  </div>
+
+  <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="register()">Submit</button>
+</form>
+</body>
+</html>
