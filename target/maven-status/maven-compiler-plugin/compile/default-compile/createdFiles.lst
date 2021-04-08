@@ -1,0 +1,5 @@
+com/bfs/springrepositorycaching/repository/CustomerRepository.class
+com/bfs/springrepositorycaching/domain/Customer.class
+com/bfs/springrepositorycaching/domain/QCustomer.class
+com/bfs/springrepositorycaching/SpringRepositoryCachingApplication.class
+com/bfs/springrepositorycaching/domain/Customer$CustomerBuilder.class
